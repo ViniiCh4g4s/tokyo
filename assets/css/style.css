@@ -1,0 +1,22 @@
+/* Menu mobile toggle usando checkbox */
+#menu-toggle {
+    display: none;
+}
+
+#mobile-menu {
+    display: none;
+}
+
+#menu-toggle:checked ~ #mobile-menu {
+    display: block;
+}
+
+/* Smooth scroll */
+html {
+    scroll-behavior: smooth;
+}
+
+@theme {
+    --color-primary: #BC012D;
+    --color-secondary: #231F20;
+}
